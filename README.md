@@ -1,6 +1,6 @@
 # ResqueHelpers
 
-TODO: Write a gem description
+Resque Helpers to serach/filter worker etc.
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+RH::Worker.find_by_queue_name(queue_name)
+same as
+ResqueHelpers::Worker.find_by_queue_name(queue_name)
+```
+
+etc
 
 ## Contributing
 
