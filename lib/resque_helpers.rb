@@ -1,5 +1,8 @@
-require "resque_helpers/version"
+require 'resque_helpers/version'
+require 'resque'
+require 'resque_helpers/worker'
 
 module ResqueHelpers
-  # Your code goes here...
 end
+
+RH = ResqueHelpers
